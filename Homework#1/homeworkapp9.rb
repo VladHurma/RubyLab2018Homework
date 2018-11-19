@@ -21,8 +21,7 @@ class If_word_palindrome
 	end
 
 	def check_word
-		symbol_arr = @word.split(//)
-		if symbol_arr[0..(symbol_arr.size / 2)] == symbol_arr.reverse[0..symbol_arr.size / 2]
+		if @word == @word.reverse
 			@checkup = true
 		end
 	end

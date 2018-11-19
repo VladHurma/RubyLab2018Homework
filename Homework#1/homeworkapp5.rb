@@ -27,7 +27,7 @@ class Add_zero_before_positive_numbers
 	end
 
 	def adding_zero
-		@numbers = @numbers.map { |e| e.positive? ? [0, e] : e}.flatten!
+		@numbers.map { |e| e.positive? ? [0, e] : e}.flatten!
 	end
 
 	def my_adding_zero_method
